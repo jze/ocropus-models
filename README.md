@@ -7,16 +7,5 @@ German book from the end of 19th century ("Ortschafts-Verzeichnis für die Provi
 ![font example for sh1890](images/sh1890.png)
 
 ## verlustliste_österreich-ungarn
-This model can be used to recognize the WW1 casualty lists of Austria-Hungary (Verlustlisten Österreich-Ungarn). 
-
-![font example for the Austria-Hungary casualty lists](images/verlustliste_österreich-ungarn.png)
-
-The model is trained from scratch because of the various diacritical signs. You can find the training data and test data in directory `verlustliste_österreich-ungarn`. Images from the directories ending with `9`have been used for training. Here the development of the error rate is shown:
-
-![error rate during model learning](verlustliste_österreich-ungarn/error.png)
-
-The model here is iteration 18,000. The data for the plot as well as a Gnuplot script is also contained in the directory `verlustliste_österreich-ungarn`.
-
-I have used the scans from the Landesbibliothek Oberösterreich
-http://digi.landesbibliothek.at
+I have moved the model and the images used for training to a separate repository:  https://github.com/jze/ocropus-model_oesterreich-ungarn
 
